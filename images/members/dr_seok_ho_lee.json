@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Dr. Seok Ho Lee",
+      "current_location": "Korea Institute of Science and Technology",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Korea University",
+          "major": "Division of Biotechnology",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "Korea University",
+          "major": "Department of Chemical and Biological Engineering",
+          "supervisor": "Prof. Gwan-Yeong Lee"
+        },
+        "phd": {
+          "school": "Korea University",
+          "major": "Department of Chemical and Biological Engineering",
+          "supervisor": "Prof. Gwan-Yeong Lee"
+        }
+      },
+      "email": "13leeleedaniel@gmail.com",
+      "research_area": "Catalyst Computational Simulation, Self-Driving Lab"
+    }
+  ]
+}

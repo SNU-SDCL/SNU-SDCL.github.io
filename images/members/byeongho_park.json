@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Byeongho Park",
+      "current_location": "Seoul National University",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Sangmyung University",
+          "major": "System Semiconductor Engineering",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "phd": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        }
+      },
+      "email": "byeongho0826@gmail.com",
+      "research_area": "Self-Driving Lab"
+    }
+  ]
+}

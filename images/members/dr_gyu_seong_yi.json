@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Dr. Gyu Seong Yi",
+      "current_location": "Korea Institute of Science and Technology",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Hanyang University",
+          "major": "Materials Science and Engineering",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "Hanyang University",
+          "major": "Materials Science and Engineering",
+          "supervisor": "Prof. Yong-Chae Chung"
+        },
+        "phd": {
+          "school": "Seoul National University",
+          "major": "Chemical and Biological Engineering",
+          "supervisor": "Prof. Yung-Eun Sung"
+        }
+      },
+      "email": "gyusyi@snu.ac.kr",
+      "research_area": "Self-Driving Lab, Electrocatalysis"
+    }
+  ]
+}

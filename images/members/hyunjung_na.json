@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Hyunjung Na",
+      "current_location": "Korea Institute of Science and Technology",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Kyung Hee University",
+          "major": "College of Applied Chemistry",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "phd": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        }
+      },
+      "email": "hyunjungna0916@gmail.com",
+      "research_area": "MD, LLM"
+    }
+  ]
+}

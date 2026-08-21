@@ -1,0 +1,26 @@
+{
+  "members": [
+    {
+      "name": "",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "phd": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        }
+      },
+      "email": "",
+      "research_area": ""
+    }
+  ]
+}

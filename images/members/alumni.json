@@ -1,0 +1,224 @@
+{
+  "alumni": [
+    {
+      "name": "Dr. Nayeon Kim",
+      "role": "Ph.D. Student",
+      "period": {
+        "start": "2021-03",
+        "end": "2026-08"
+      },
+      "current_position": "Senior Researcher",
+      "current_affiliation": "POSCO Holdings Co., Ltd."
+    },
+    {
+      "name": "Dr. Jungwoo Choi",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2024-03",
+        "end": "2026-08"
+      },
+      "current_position": "Assistant Professor",
+      "current_affiliation": "Dankook University"
+    },
+    {
+      "name": "Dr. Doosun Hong",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2025-04",
+        "end": "2025-08"
+      },
+      "current_position": "Assistant Professor",
+      "current_affiliation": "University of Seoul"
+    },
+    {
+      "name": "Dr. Dongyup Shin",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2022-09",
+        "end": "2025-08"
+      },
+      "current_position": "Assistant Professor",
+      "current_affiliation": "Kangwon National University"
+    },
+    {
+      "name": "Dr. Hyuk Jun Yoo",
+      "role": "Ph.D. Student & Postdoctoral Researcher",
+      "period": {
+        "start": "2020-03",
+        "end": "2025-06"
+      },
+      "current_position": "Postdoctoral Researcher",
+      "current_affiliation": "University of California, Berkeley, USA"
+    },
+    {
+      "name": "Dr. Chen-Hui Chan",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2021-01",
+        "end": "2024-12"
+      },
+      "current_position": "Assistant Professor",
+      "current_affiliation": "Xiamen University Malaysia"
+    },
+    {
+      "name": "Dr. Sooyeon Kim",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2021-09",
+        "end": "2024-07"
+      },
+      "current_position": "Assistant Professor",
+      "current_affiliation": "Myongji University"
+    },
+    {
+      "name": "Dr. Kihoon Bang",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2020-10",
+        "end": "2024-07"
+      },
+      "current_position": "Principal Researcher",
+      "current_affiliation": "Samsung SDI Co., Ltd."
+    },
+    {
+      "name": "Dr. Hong Woo Lee",
+      "role": "Ph.D. Student & Postdoctoral Researcher",
+      "period": {
+        "start": "2017-03",
+        "end": "2023-01"
+      },
+      "current_position": "Senior Researcher",
+      "current_affiliation": "POSCO Holdings Co., Ltd."
+    },
+    {
+      "name": "Ms. Ga-Un Jeong",
+      "role": "Intern Researcher",
+      "period": {
+        "start": "2020-03",
+        "end": "2021-08"
+      },
+      "current_position": "Ph.D. Student",
+      "current_affiliation": "Pennsylvania State University, USA"
+    },
+    {
+      "name": "Dr. Mosab Banisalman",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2019-09",
+        "end": "2021-12"
+      },
+      "current_position": "Staff Scientist",
+      "current_affiliation": "Virtual Lab Co."
+    },
+    {
+      "name": "Dr. Jeongrae Kim",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2019-03",
+        "end": "2021-08"
+      },
+      "current_position": "Assistant Professor",
+      "current_affiliation": "Korea Polytechnics Chuncheon Campus"
+    },
+    {
+      "name": "Dr. Min-Cheol Kim",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2018-09",
+        "end": "2021-08"
+      },
+      "current_position": "Assistant Professor",
+      "current_affiliation": "Sookmyung Women's University"
+    },
+    {
+      "name": "Dr. Byung Chul Yeo",
+      "role": "Ph.D. Student & Postdoctoral Researcher",
+      "period": {
+        "start": "2014-03",
+        "end": "2019-04"
+      },
+      "current_position": "Associate Professor",
+      "current_affiliation": "Pukyong National University"
+    },
+    {
+      "name": "Dr. Sungjin Pai",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2014-09",
+        "end": "2018-08"
+      },
+      "current_position": "Chief Researcher",
+      "current_affiliation": "DRB Industrial Co., Ltd."
+    },
+    {
+      "name": "Dr. Sung-Yup Kim",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2016-09",
+        "end": "2018-08"
+      },
+      "current_position": "Researcher",
+      "current_affiliation": "The Ohio State University, USA"
+    },
+    {
+      "name": "Dr. Xiaolong Liu",
+      "role": "Visiting Researcher",
+      "period": {
+        "start": "2017-05",
+        "end": "2018-08"
+      },
+      "current_position": "Staff Scientist",
+      "current_affiliation": "China National Petroleum Corporation"
+    },
+    {
+      "name": "Dr. Kang-Seop Yun",
+      "role": "Ph.D. Student",
+      "period": {
+        "start": "2015-03",
+        "end": "2018-02"
+      },
+      "current_position": "Staff Scientist",
+      "current_affiliation": "SEMES Co., Ltd."
+    },
+    {
+      "name": "Prof. Xiuying Liu",
+      "role": "Visiting Researcher",
+      "period": {
+        "start": "2016-03",
+        "end": "2017-02"
+      },
+      "current_position": "Associate Professor",
+      "current_affiliation": "Henan University of Technology, China"
+    },
+    {
+      "name": "Dr. Donghun Kim",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2015-08",
+        "end": "2017-04"
+      },
+      "current_position": "Associate Professor",
+      "current_affiliation": "KAIST"
+    },
+    {
+      "name": "Dr. K.P.S.S. Hembram",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2013-06",
+        "end": "2015-12"
+      },
+      "current_position": null,
+      "current_affiliation": "KIST"
+    },
+    {
+      "name": "Dr. Li-Ming Yang",
+      "role": "Postdoctoral Researcher",
+      "period": {
+        "start": "2013-06",
+        "end": "2014-05"
+      },
+      "current_position": "Associate Professor",
+      "current_affiliation": "Huazhong University of Science and Technology, China"
+    }
+  ]
+}

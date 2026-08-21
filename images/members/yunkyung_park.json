@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Yunkyung Park",
+      "current_location": "Seoul National University",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Sookmyung Women's University",
+          "major": "Chemistry",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "phd": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        }
+      },
+      "email": "prkyunkyng@gmail.com",
+      "research_area": "DFT, MLIP"
+    }
+  ]
+}

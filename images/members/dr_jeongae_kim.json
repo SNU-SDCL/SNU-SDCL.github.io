@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Dr. Jeongae Kim",
+      "current_location": "Korea Institute of Science and Technology",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Jeonbuk National University",
+          "major": "Chemical Engineering",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "Jeonbuk National University",
+          "major": "Chemical Engineering",
+          "supervisor": "Prof. Yeoung-Sang Yun"
+        },
+        "phd": {
+          "school": "Rensselaer Polytechnic Institute",
+          "major": "Chemical Engineering",
+          "supervisor": "Prof. R. Helen Zha & Prof. Yunfeng Shi"
+        }
+      },
+      "email": "fhge7428@gmail.com",
+      "research_area": "MD, MLP, DFT, Computational material design"
+    }
+  ]
+}

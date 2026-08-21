@@ -1,0 +1,80 @@
+{
+  "members": [
+    {
+      "name": "Prof. Sang Soo Han",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Hanyang University",
+          "major": "Department of Materials Science and Engineering",
+          "period": "Feb. 1999",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "Hanyang University",
+          "major": "Department of Materials Science and Engineering",
+          "period": "Feb. 2001",
+          "supervisor": "Prof. Kyung Sub Lee"
+        },
+        "phd": {
+          "school": "Korea Advanced Institute of Science and Technology",
+          "major": "Department of Materials Science and Engineering",
+          "period": "Feb. 2005",
+          "supervisor": "Prof. Hyuck Mo Lee"
+        }
+      },
+       "experience": [
+        {
+          "period": "Sep. 2026 – Present",
+          "position": "Professor, Department of Chemistry",
+          "institution": "Seoul National University (SNU), Seoul, Republic of Korea"
+        },
+        {
+          "period": "Sep. 2020 – Aug. 2026",
+          "position": "Head, Computational Science Research Center",
+          "institution": "Korea Institute of Science and Technology (KIST), Seoul, Republic of Korea"
+        },
+        {
+          "period": "May 2016 – Apr. 2022",
+          "position": "Director, Creative Materials Discovery Project",
+          "institution": "Development of Fractal Catalyst Materials by Quantum/Structural Alchemy, supported by National Research Foundation of Korea"
+        },
+        {
+          "period": "Jul. 2015 – Apr. 2016",
+          "position": "Adjunct Professor, Department of Mechanical Engineering",
+          "institution": "Hanyang University, Seoul, Republic of Korea"
+        },
+        {
+          "period": "Mar. 2015 – Aug. 2026",
+          "position": "Associate Professor, Nanomaterials Science & Engineering",
+          "institution": "University of Science and Technology (UST), Daejeon, Republic of Korea"
+        },
+        {
+          "period": "Jun. 2013 – Aug. 2026",
+          "position": "Senior/Principal Research Scientist, Center for Computational Science",
+          "institution": "Korea Institute of Science and Technology (KIST), Seoul, Republic of Korea"
+        },
+        {
+          "period": "Feb. 2009 – May 2013",
+          "position": "Senior Research Scientist, Center for Nanocharacterization",
+          "institution": "Korea Research Institute of Standards and Science (KRISS), Daejeon, Republic of Korea"
+        },
+        {
+          "period": "Oct. 2005 – Jan. 2009",
+          "position": "Postdoctoral Scholar, Department of Chemistry",
+          "institution": "California Institute of Technology, Advisor: Prof. W. A. Goddard III"
+        },
+        {
+          "period": "Mar. 2005 – Oct. 2005",
+          "position": "Postdoctoral Researcher, Applied Science Research Institute",
+          "institution": "KAIST, Daejeon, Republic of Korea"
+        }
+      ],
+      "email": "sangsoo@kist.re.kr",
+      "research_area": "Computational Materials Science, Electrochemical Catalyst, Thermal Transport",
+      "tel": "+82-2-958-5441",
+      "fax": "+82-2-958-5451",
+      "office": "Building 503, 3F, Room 322",
+      "Address": "Department of Chemistry, Seoul National University, Building 503, 1 Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Dr. Soonsung So",
+      "current_location": "Korea Institute of Science and Technology",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Jeonbuk National University",
+          "major": "Department of Polymer Nano Science & Technology",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "Gwangju Institute of Science and Technology",
+          "major": "Department of Materials Science and Engineering",
+          "supervisor": "Prof. Joo-Hyoung Lee"
+        },
+        "phd": {
+          "school": "Gwangju Institute of Science and Technology",
+          "major": "Department of Materials Science and Engineering",
+          "supervisor": "Prof. Joo-Hyoung Lee"
+        }
+      },
+      "email": "stsosnsy@gmail.com, soonsung2001@kist.re.kr",
+      "research_area": "Computational Materials Science, Electrochemical Catalyst, Thermal Transport"
+    }
+  ]
+}

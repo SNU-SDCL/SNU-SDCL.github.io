@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Heeseung Lee",
+      "current_location": "Korea Institute of Science and Technology",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Pukyong National University",
+          "major": "Major of Materials Systems Engineering",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "phd": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        }
+      },
+      "email": "hchs0957@gmail.com",
+      "research_area": "Self-Driving Lab"
+    }
+  ]
+}
