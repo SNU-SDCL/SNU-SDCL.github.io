@@ -3,57 +3,85 @@
     {
       "year": "Submitted",
       "index": "1",
+      "reference": "J. Kim†, S. So†, J. S. Lim†, J. G. Lee, J. Kim, S. Kim, S.-P. Cho, C. H. Choi*, B. Seo*, S. S. Han*, and S. H. Joo*, \"Multi-Descriptor Screening Reveals d0 Alloying as a Design Strategy for Stable Ruthenium Oxide Catalysts for Acidic Oxygen Evolution\", Submitted. († Equal contribution).",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "year": "Submitted",
+      "index": "2",
+      "reference": "J. S. Lee†, S. So†, S.-H. Kim†, S. J. Lee, C. Li, R. Guan, Y. Shao, J. Li, S. S. Han*, and J.-B. Baek*, \"Orthogonal K-Ba Co-promotion for Kinetically Matched Mechanochemical Ammonia Synthesis\", Submitted. († Equal contribution).",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "year": "Submitted",
+      "index": "3",
+      "reference": "Y. J. Jang†, J. Choi†, Y. Kim†, J. S. Myeong, S.-C. Kim, J. Manassa, R. Hovden, M.-H. Jung, J. H. Moon, S. S. Han*, B. C. Park*, and Y. K. Kim*, \"Adaptive Fe-Site Reconstruction for Efficient Water Oxidation\", Submitted. († Equal contribution).",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "year": "Submitted",
+      "index": "4",
       "reference": "D. Kim†, H. Nam†, S. Y. Paek†, N. Kim, H. Lee, H. J. Yoo, S. K. Kwak*, J. M. Kim*, S. Y. Lee*, and S. S. Han*, \"Overcoming the Trade-off Between the Activity, Stability, and Cost of OER Catalysts for PEM Water Electrolysis in a Self-Driving Laboratory\", Submitted. († Equal contribution).",
       "doi": "",
       "url": ""
     },
     {
       "year": "Submitted",
-      "index": "2",
-      "reference": "H. Lee†, T. K. Lee†, D. Shin†, Z. Tao, J. Kim, S. Oh, W.-S. Kim*, S. S. Han*, S. J. Yoo*, and T. Yu*, \"Scalable Production of Ultrathin NiFe Layered Double Hydroxide via Couette-Taylor Reactor for Efficient Anion Exchange Membrane Water Electrolysis\", Submitted. († Equal contribution).",
-      "doi": "",
-      "url": ""
+      "index": "1",
+      "reference": "H. Lee†, T. K. Lee†, D. Shin†, Z. Tao, J. Kim, S. Oh, W.-S. Kim*, S. S. Han*, S. J. Yoo*, and T. Yu*, \"Scalable Synthesis of Ultrathin NiFe-LDH Using Couette-Taylor Reactor for Efficient Oxygen Evolution Reaction\", Submitted. († Equal contribution).",
+      "doi": "10.1149/MA2026-01361798mtgabs",
+      "url": "https://iopscience.iop.org/article/10.1149/MA2026-01361798mtgabs/meta"
     },
     {
       "year": "Submitted",
-      "index": "3",
+      "index": "5",
       "reference": "H. J. Yoo†, D. Kim†, S. Yim, and S. S. Han*, \"NanoChef: AI Framework for Simultaneous Optimization of Synthesis Sequences and Reaction Conditions at Autonomous Laboratories\", Submitted, DOI: 10.26434/chemrxiv-2025-96bmc. († Equal contribution).",
       "doi": "10.26434/chemrxiv-2025-96bmc",
       "url": ""
     },
     {
-      "year": "Submitted",
-      "index": "4",
-      "reference": "H. Lee, D. Kim, H. Lee, N. Gwak, N. Kim, H. J. Yoo, T. Yu, N. Oh, S. S. Sohn*, and S. S. Han*, \"You Only Put Your Nanoparticle: A Fully Automated System for Nanoparticle Washing Enabled by Vision and Language AI\", Submitted, DOI: 10.26434/chemrxiv-2025-px33t.",
-      "doi": "10.26434/chemrxiv-2025-px33t",
-      "url": ""
+      "year": "2026",
+      "index": "2",
+      "reference": "H. Lee, D. Kim, H. Lee, N. Gwak, N. Kim, H. J. Yoo, T. Yu, N. Oh, S. S. Sohn*, and S. S. Han*, \"A Fully Adaptive Automated System for Nanoparticle Washing Enabled by Vision and Language AI\", Chemical Engineering Journal, 543 (2026) 178469.",
+      "doi": "10.1016/j.cej.2026.178469",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1385894726059309a"
     },
     {
       "year": "2026",
-      "index": "1",
-      "reference": "N. Kim†, H. J. Yoo†, D. Kim, H. Lee, C. S. Hong, and S. S. Han*, \"SPACESHIP: Autonomous Mapping of Hardware-dependent Synthesizable Space in Solution-Phase Gold Nanomaterials\", Journal of the American Chemical Society, Accepted. († Equal contribution).",
-      "doi": "https://doi.org/10.1021/jacs.6c03132",
+      "index": "3",
+      "reference": "I.-S. Kim†, J. Choi†, S. Lee, J. E. Park, C. Lee, J. Seo, J. H. Kwon, G. Doo, H. Park, D. Lee, W.-C. Cho, C. Kim, N. V. Myung, S. S. Han, B.-S. An*, M. J. Kim*, and H.-S. Cho*, \"Engineering MnNiPx Cathode via Dual Role of Mn: Simultaneous Enhancement of Activity and Intermittent Operation Durability\", Advanced Functional Materials, (2026): e76622. († Equal contribution).",
+      "doi": "10.1002/adfm.76622",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adfm.76622"
+    },
+    {
+      "year": "2026",
+      "index": "4",
+      "reference": "N. Kim†, H. J. Yoo†, D. Kim, H. Lee, C. S. Hong, and S. S. Han*, \"SPACESHIP: Autonomous Mapping of Hardware-dependent Synthesizable Space in Solution-Phase Gold Nanomaterials\", Journal of the American Chemical Society, (2026) 148 (18): 19170–19185. († Equal contribution).",
+      "doi": "10.1021/jacs.6c03132",
       "url": "https://pubs.acs.org/jacsat/article/148/18/19170/5067970/SPACESHIP-Autonomous-Mapping-of-Hardware-Dependent"
     },
     {
       "year": "2026",
-      "index": "2",
-      "reference": "H. Lee†, H. J. Yoo†, H. S. Jang, B. Park, Y. J. Park*, and S. S. Han*, \"Toward Self-Driving Laboratory 2.0 for Chemistry and Materials Discovery\", Materials Horizons (invited), Accepted. († Equal contribution).",
+      "index": "5",
+      "reference": "H. Lee†, H. J. Yoo†, H. S. Jang, B. Park, Y. J. Park*, and S. S. Han*, \"Toward Self-Driving Laboratory 2.0 for Chemistry and Materials Discovery\", Materials Horizons (invited), (2026) 13 (10): 4712–4739. († Equal contribution).",
       "doi": "https://doi.org/10.1039/d5mh01984b",
       "url": "https://pubs.rsc.org/mh/article/13/10/4712/1226991/Toward-self-driving-laboratory-2-0-for-chemistry"
     },
     {
       "year": "2026",
-      "index": "3",
+      "index": "6",
       "reference": "J.-G. Lee†, J. W. Choi†, S. Kim†, W. Zhang, H. Shin, J.-H. Kim, E. H. Sargent, S. S. Han*, J. M. Kim*, and M.-J. Choi*, \"Ligand-Driven Tuning of Adsorption Energy in Nanocrystals for High-Performance H2O2 Electrosynthesis\", Journal of the American Chemical Society, 148 (2026) 9268. († Equal contribution).",
-      "doi": "https://doi.org/10.1021/jacs.5c13062",
+      "doi": "10.1021/jacs.5c13062",
       "url": "https://pubs.acs.org/jacsat/article/148/9/9268/5085642/Ligand-Driven-Tuning-of-Adsorption-Energy-in"
     },
     {
       "year": "2026",
-      "index": "4",
+      "index": "7",
       "reference": "M. Kim†, D. Shin†, M. J. Kim, S. Bae, I. S. Kim, S. S. Han*, J. G. Kang*, \"Epitaxy-Boosted Oxygen Evolution Reaction in Mesostructured Cobalt Ferrite Electrocatalysts\", Applied Catalysis B: Environment and Energy, 385 (2026) 126245. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apcatb.2025.126245",
       "url": "https://www.sciencedirect.com/science/article/pii/S0926337325012287"
     },
     {
@@ -67,7 +95,7 @@
       "year": "2025",
       "index": "2",
       "reference": "Y. Kim†, H. Doo†, D. Shin†, S. Y. Lee†, Y. Roh†, S. Park†, H. Song, Y. Jung, H. J. Yoo, S. S. Han, J. W. Kim, M. O. Besenhard*, Y. S. Lee*, J. Na*, \"Self-driving laboratories with artificial intelligence: An overview of process systems engineering perspective\", Computer and Chemical Engineering, 203 (2025) 109266. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.compchemeng.2025.109266",
       "url": "https://www.sciencedirect.com/science/article/pii/S0098135425002698"
     },
     {
@@ -88,7 +116,7 @@
       "year": "2025",
       "index": "5",
       "reference": "D. Shin and S. S. Han*, \"Unlocking Design Strategies for Oxygen Evolution Reaction Catalysts: Insights from a Kinetic Perspective via Constrained Ab Initio Molecular Dynamics Simulations\", Chemical Engineering Journal, 512 (2025) 162357.",
-      "doi": "",
+      "doi": "10.1016/j.cej.2025.162357",
       "url": "https://www.sciencedirect.com/science/article/pii/S1385894725031833"
     },
     {
@@ -116,7 +144,7 @@
       "year": "2025",
       "index": "9",
       "reference": "W. Zhang†, T. T. Le†, D. Shin†, S. Nandy, J. W. Choi, S. Y. Paek, C.-K. Hwang, J. H. Kim, H. Suh, K. H. Chae, S. Y. Lee, S. S. Han*, S. H. Kim*, and J. M. Kim*, \"Higher-Valent Nickel Oxides with Enhanced Two-Electron Oxygen Reduction in Advanced Electro-Fenton System for Organic Pollutants Degradation\", Applied Catalysis B: Environment and Energy, 361 (2025) 124666. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apcatb.2024.124666",
       "url": "https://www.sciencedirect.com/science/article/pii/S0926337324009809"
     },
     {
@@ -131,28 +159,28 @@
       "index": "2",
       "reference": "S. P. Stier*, C. Kreisbeck, H. Ihssen, M. A. Popp, J. Hauch, K. Malek, M. Reynaud, T. P. M. Goumans, J. Carlsson, I. Todorov, L. Gold, A. Räder, W. Wenzel, S. T. Bandesha, P. Jacques, F. Garcia-Moreno, O. Arcelus, P. Friederich, S. Clark, M. Maglione, A. Laukkanen, I. E. Castelli, J. Carrasco, M. C. Cabanas, H. S. Stein, O. Ozcan, D. Elbert, K. Reuter, C. Sheurer, M. Demura, S. S. Han, T. Vegge, S. Nakamae, M. Fabrizio, and M. Kozdras, \"Materials Acceleration Platforms (MAPs): Accelerating Materials Research and Development to Meet Urgent Societal Challenges\", Advanced Materials, 36 (2024) 2407791.",
       "doi": "10.1002/adma.202407791",
-      "url": "https://doi.org/10.1002/adma.202407791"
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202407791"
     },
     {
       "year": "2024",
       "index": "3",
       "reference": "S. Choi†, D. Hong†, H. W. Yang, J. Roh, J. Yoo, C. Lee, M. Kim, Y. H. Yun, K. Bang, J. M. Kim, E. A. Cho, S. S. Han*, D. Kim*, and H. M. Lee*, \"Enhancing Fuel Cell Durability with Heteroenergetic TaOx-Carbon Support\", ACS Energy Letters, 9 (2024) 4265-4272. († Equal contribution).",
       "doi": "10.1021/acsenergylett.4c01946",
-      "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.4c01946"
+      "url": "https://pubs.acs.org/aelccp/article/9/9/4265/341330/Enhancing-Fuel-Cell-Durability-with"
     },
     {
       "year": "2024",
       "index": "4",
       "reference": "C.-K. Hwang†, S. Kim†, K. R. Yoon†, T. T. Le, C. V. Hoang, J. W. Choi, W. Zhang, S. Y. Paek, C. H. Lee, J. H. Lee, K. H. Chae, S. Jeong, S. Y. Lee, B.-K. Ju, S. H. Kim*, S. S. Han*, and J. M. Kim*, \"Arc Plasma Deposited Co Single Atom Catalysts Supported on Aligned Carbon Nanofiber for Hydrogen Peroxide Electrosynthesis and an Electro-Fenton Process\", Carbon Energy, 6 (2024) e582. († Equal contribution).",
       "doi": "10.1002/cey2.582",
-      "url": "https://doi.org/10.1002/cey2.582"
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/cey2.582"
     },
     {
       "year": "2024",
       "index": "5",
       "reference": "H. J. Yoo†, N. Kim†, H. Lee, D. Kim, L. T. C. Ow, H. Nam, C. Kim, S. Y. Lee, K.-Y. Lee*, D. Kim*, and S. S. Han*, \"Bespoke Metal Nanoparticle Synthesis at Room Temperature and Discovery of Chemical Knowledge on Nanoparticle Growth Via Autonomous Experiments\", Advanced Functional Materials, 34 (2024) 2312561. († Equal contribution). (Front cover selected).",
       "doi": "10.1002/adfm.202312561",
-      "url": "https://doi.org/10.1002/adfm.202312561"
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202312561"
     },
     {
       "year": "2024",
@@ -166,7 +194,7 @@
       "index": "7",
       "reference": "J. Kim, M.-C. Kim, S. S. Han, and K. Cho*, \"Accessible Ni-Fe-Oxalate Framework for Electrochemical Urea Oxidation with Radically Enhanced Kinetics\", Advanced Functional Materials, 34 (2024) 2315625.",
       "doi": "10.1002/adfm.202315625",
-      "url": "https://doi.org/10.1002/adfm.202315625"
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202315625"
     },
     {
       "year": "2024",
@@ -180,7 +208,7 @@
       "index": "9",
       "reference": "S. Venkateswalu†, S. Kim†, M. Balamurugan, Y. Son, S.-I. Choi, M. Yoon, K. T. Nam, S. S. Han*, and M. J. Kim*, “Boron Nitride Nanotubes Supported Icosahedral Pd Nanoparticles: Enabling Ultrahigh Current Density-Superior Hydrogen Evolution Activity and Theoretical Insights”, Applied Catalysis B: Environmental, 345 (2024) 123609. († Equal contribution).",
       "doi": "10.1016/j.apcatb.2023.123609",
-      "url": "https://doi.org/10.1016/j.apcatb.2023.123609"
+      "url": "https://www.sciencedirect.com/science/article/pii/S0926337323012523?via%3Dihub"
     },
     {
       "year": "2024",
@@ -200,7 +228,7 @@
       "year": "2023",
       "index": "2",
       "reference": "Y. Park†, C.-K. Hwang†, K. Bang, D. Hong, H. Nam, S. Kwon, B. C. Yeo, D. Go, J. An, B.-K. Ju, S. H. Kim, J. Y. Byun, S. Y. Lee, J. M. Kim*, D. Kim*, S. S. Han*, and H. M. Lee*, “Machine Learning Filters Out Efficient Electrocatalysts in the Massive Ternary Alloy Space for Fuel Cells”, Applied Catalysis B: Environmental, 339 (2023) 123128. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apcatb.2023.123128",
       "url": "https://www.sciencedirect.com/science/article/pii/S0926337323007713"
     },
     {
@@ -221,42 +249,42 @@
       "year": "2023",
       "index": "5",
       "reference": "C.-H. Chan, S. Y. Lee, and S. S. Han*, “Origin of Enhanced Toluene Hydrogenation by Pt-Ru Catalysts for an Efficient Liquid Organic Hydrogen Carrier”, International Journal of Hydrogen Energy, 48 (2023) 33590-33598.",
-      "doi": "",
+      "doi": "10.1016/j.ijhydene.2023.05.118",
       "url": "https://www.sciencedirect.com/science/article/pii/S036031992302414X"
     },
     {
       "year": "2023",
       "index": "6",
       "reference": "W. Zhang†, J. W. Choi†, S. Kim†, T. T. Le, S. Nandy, C.-K. Hwang, S. Y. Paek, A. Byeon, K. H. Chae, S. Y. Lee, S. H. Kim, H. Song, J. Kim, J. Oh, J. W. Lee, S. S. Han*, and J. M. Kim*, “Penta Nitrogen Coordinated Cobalt Single Atom Catalysts with Oxygenated Carbon Black for Electrochemical H2O2 Production”, Applied Catalysis B: Environmental, 331 (2023) 122712. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apcatb.2023.122712",
       "url": "https://www.sciencedirect.com/science/article/pii/S0926337323003557"
     },
     {
       "year": "2023",
       "index": "7",
       "reference": "A. Byeon†, J. W. Choi†, H. W. Lee†, W. C. Yun, W. Zhang, C.-K. Hwang, S. Y. Lee, S. S. Han*, J. M. Kim*, and J. W. Lee*, “CO2-Derived Edge-Boron-Doped Hierarchical Porous Carbon Catalysts for Highly Effective Electrochemical H2O2 Production”, Applied Catalysis B: Environmental, 329 (2023) 122557. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apcatb.2023.122557",
       "url": "https://www.sciencedirect.com/science/article/pii/S092633732300200X"
     },
     {
       "year": "2023",
       "index": "8",
       "reference": "M.-C. Kim†, J. Chung†, T.-Y. An†, J. Lee, M.-K. Han, S. S. Han*, U. Sim*, and T. Yu*, “Paradox of Thiourea: A False-Positive and Promoter for Electrochemical Nitrogen Reduction on Nickel Sulfide Catalysts”, Applied Catalysis B: Environmental, 328 (2023) 122485. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apcatb.2023.122485",
       "url": "https://www.sciencedirect.com/science/article/pii/S0926337323001285"
     },
     {
       "year": "2023",
       "index": "9",
       "reference": "S. Phyo, S. Kim, H. Lee, S. S. Han, Y. Oh*, and J. Lee*, \"Adsorption Enhancement of Hazardous Odor Gas Using Controlled Thermal Oxidation of Activated Carbon\", Journal of Cleaner Production, 393 (2023) 136261.",
-      "doi": "",
+      "doi": "10.1016/j.jclepro.2023.136261",
       "url": "https://www.sciencedirect.com/science/article/pii/S0959652623004195"
     },
     {
       "year": "2023",
       "index": "10",
       "reference": "H. W. Lee†, G.-U. Jeong†, M. C. Kim, D. Kim*, S. Kim*, and S. S. Han*, “Atomistic Origin of Mechanochemical NH3 Synthesis on Fe Catalysts”, International Journal of Hydrogen Energy, 48 (2023) 2931-2941. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.ijhydene.2022.10.193",
       "url": "https://www.sciencedirect.com/science/article/pii/S0360319922049837"
     },
     {
@@ -284,14 +312,14 @@
       "year": "2021",
       "index": "3",
       "reference": "M.-C. Kim and S. S. Han*, “Electrochemically Modeling a Nonelectrochemical System: Hydrogen Peroxide Direct Synthesis on Palladium Catalysts”, Journal of Physical Chemistry Letters 12 (2021) 4490-4495 (arXiv:2008.04513).",
-      "doi": "",
+      "doi": "10.1021/acs.jpclett.1c01223",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33956453/"
     },
     {
       "year": "2021",
       "index": "4",
       "reference": "M.-C. Kim†, G.-H. Han†, X. Xiao†, J. Song, J. Hong, E. Jung, H.-K. Kim, J. P. Ahn*, S. S. Han*, K.-Y. Lee*, and T. Yu*, \"Anisotropic Growth of Pt on Pd Nanocubes Promotes Direct Synthesis of Hydrogen Peroxide\", Applied Surface Science 562 (2021) 150031. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apsusc.2021.150031",
       "url": "https://www.sciencedirect.com/science/article/pii/S0169433221011077"
     },
     {
@@ -305,7 +333,7 @@
       "year": "2021",
       "index": "6",
       "reference": "J. Kim†, L. C. O. Tiong†, D. Kim*, and S. S. Han*, “Deep Learning-Based Prediction of Material Properties Using Chemical Compositions and Diffraction Patterns as Experimentally Accessible Inputs”, Journal of Physical Chemistry Letters, 12 (2021) 8376-8383. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1021/acs.jpclett.1c02305",
       "url": "https://pubmed.ncbi.nlm.nih.gov/34435783/"
     },
     {
@@ -326,7 +354,7 @@
       "year": "2020",
       "index": "2",
       "reference": "Y.-H. Cho, G.-H. Han, S. S. Han, M.-G. Seo*, and K.-Y. Lee*, \"Effects of Varying Amounts of Na on Pd/TiO2 for the Direct Synthesis of H2O2: Identification of the Pd Dispersion and Catalytic Activity Enhancement by Changing the Surface Electronic States\", Molecular Catalysis 474 (2020) 110732(1)-(8).",
-      "doi": "",
+      "doi": "10.1016/j.mcat.2019.110732",
       "url": "https://www.sciencedirect.com/science/article/pii/S2468823119305942"
     },
     {
@@ -375,22 +403,22 @@
       "year": "2019",
       "index": "4",
       "reference": "B. C. Yeo, D. Kim, C. Kim, and S. S. Han*, “Pattern Learning Electronic Density of States”, Scientific Reports 9 (2019) 5879(1)-(10).",
-      "doi": "",
-      "url": ""
+      "doi": "10.1038/s41598-019-42277-9",
+      "url": "https://www.nature.com/articles/s41598-019-42277-9"
     },
     {
       "year": "2019",
       "index": "5",
       "reference": "K. Y. Cho†, J. Y. Seo†, H.-J. Kim, S. J. Pai, X. H. Do, H. G. Yoon, S. S. Hwang, S. S. Han, and K.-Y. Baek*, \"Facile Control of Defect Site Density and Particle Size of UiO-66 for Enhanced Hydrolysis Rates: Insights into Feasibility of Zr(IV)-based Metal-Organic Framework (MOF) Catalysts\", Applied Catalysis B: Environmental 245 (2019) 635-647. († Equal contribution).",
-      "doi": "",
+      "doi": "10.1016/j.apcatb.2019.01.033",
       "url": "https://www.sciencedirect.com/science/article/pii/S0926337319300323"
     },
     {
       "year": "2018",
       "index": "1",
       "reference": "S. Quon†, D. Y. Jo†, G.-H. Han, S. S. Han, M.-G. Seo, and K.-Y. Lee*, \"Role of Pt Atoms on Pd(111) Surface in the Direct Synthesis of Hydrogen Peroxide: Nano-Catalystic Experiment and DFT Calculations\", Journal of Catalysis 368 (2018) 237-247. († Equal contribution).",
-      "doi": "",
-      "url": ""
+      "doi": "10.1016/j.jcat.2018.10.007",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021951718303919"
     },
     {
       "year": "2018",
@@ -515,7 +543,7 @@
       "year": "2017",
       "index": "13",
       "reference": "M.-G. Seo, H. J. Kim, S. S. Han, and K.-Y. Lee*, “Effect of Shell Thickness of Pd core-porous SiO2 Shell Catalysts on Direct Synthesis of H2O2 from H2 and O2”, Journal of Molecular Catalysis A: Chemical 426 (2017) 238-243.",
-      "doi": "",
+      "doi": "10.1016/j.molcata.2016.11.021",
       "url": "https://www.sciencedirect.com/science/article/pii/S1381116916304976"
     },
     {
@@ -550,14 +578,14 @@
       "year": "2016",
       "index": "3",
       "reference": "K. P. S. S. Hembram, H. Jung, B. C. Yeo, S. J. Pai, H. J. Lee, K.-R. Lee, and S. S. Han*, \"A Comparative First-Principles Study on the Lithiation, Sodiation, and Magnesiation of Black Phosphorus for Li-, Na-, and Mg-Ion Batteries\", Physical Chemistry Chemical Physics 18 (2016) 21391-21397.",
-      "doi": "",
-      "url": ""
+      "doi": "10.1039/c6cp02049f",
+      "url": "https://pubs.rsc.org/cp/article/18/31/21391/517357/A-comparative-first-principles-study-of-the"
     },
     {
       "year": "2016",
       "index": "4",
       "reference": "M. J. Park, J. H. Lee, K. P. S. S. Hembram, K.-R. Lee, S. S. Han, C. W. Yoon, S.-W. Nam, and J. Y. Kim*, \"Oxygen Reduction Electrocatalysts Based on Coupled Iron Nitride Nanoparticles with Nitrogen-Doped Carbon\", Catalysts 6 (2016) 86(1)-86(11).",
-      "doi": "",
+      "doi": "10.3390/catal6060086",
       "url": "https://www.mdpi.com/2073-4344/6/6/86"
     },
     {
@@ -592,8 +620,8 @@
       "year": "2016",
       "index": "9",
       "reference": "S. J. Pai, B. C. Yeo, and S. S. Han*, \"Development of the ReaxFFCBN Reactive Force Field for the Improved Design of Liquid CBN Hydrogen Storage Materials\", Physical Chemistry Chemical Physics 18 (2016) 1818-1827.",
-      "doi": "",
-      "url": ""
+      "doi": "10.1039/c5cp05486a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26681481/"
     },
     {
       "year": "2015",
@@ -669,8 +697,8 @@
       "year": "2014",
       "index": "7",
       "reference": "J. Joo, H. Kim*, and S. S. Han*, “Reply to the ‘Comment on “Volume shrinkage of metal organic framework host induced by the dispersive attraction of guest gas molecules” by F.-X. Coudert, A. H. Fuchs, and A. V. Neimark” ”, Physical Chemistry Chemical Physics, 16 (2014) 4396-4398.",
-      "doi": "",
-      "url": ""
+      "doi": "10.1039/c3cp53256a",
+      "url": "https://pubs.rsc.org/cp/article/15/43/18822/397078/Volume-shrinkage-of-a-metal-organic-framework-host"
     },
     {
       "year": "2014",
@@ -690,7 +718,7 @@
       "year": "2014",
       "index": "10",
       "reference": "D. Odkhuu, D. H. Jung, H. Lee, S. S. Han, S.-H. Choi, R. S. Ruoff, and N. Park*, “Negatively Curved Carbons as the Anode for Lithium Ion Batteries”, Carbon, 66 (2014) 39-47.",
-      "doi": "",
+      "doi": "10.1016/j.carbon.2013.08.033",
       "url": "https://www.sciencedirect.com/science/article/pii/S0008622313007951"
     },
     {
@@ -711,7 +739,7 @@
       "year": "2013",
       "index": "3",
       "reference": "D. Shin, H. Jung, S. S. Han, C. H. Choi, H. Lee, and N. Park*, “Microscopic Nature of Mobile Fluoride Anions on sp2 Carbon Surfaces”, Chemical Physics Letters, 570 (2013) 85-89.",
-      "doi": "",
+      "doi": "10.1016/j.cplett.2013.03.042",
       "url": "https://www.sciencedirect.com/science/article/pii/S0009261413003746"
     },
     {
@@ -725,7 +753,7 @@
       "year": "2013",
       "index": "5",
       "reference": "D. Kim, D. H. Jung, H. Guk, S. S. Han, N. Park, K. Choi*, and S.-H. Choi*, “Theoretical Study on Porphyrin Based Covalent Organic Polyhedra as a Hydrogen Storage”, International Journal of Hydrogen Energy, 38 (2013) 6234-6240.",
-      "doi": "",
+      "doi": "10.1016/j.ijhydene.2013.01.054",
       "url": "https://www.sciencedirect.com/science/article/pii/S0360319913001390"
     },
     {
@@ -781,7 +809,7 @@
       "year": "Before",
       "index": "7",
       "reference": "J. H. Ryu, S. S. Han, D. H. Kim, G. Henkelman, and H. M. Lee*, “Ligand-Induced Structural Evolution of Pt55 Nanoparticles: Amine versus Thiol”, ACS Nano, 5 (2011) 8515-8522. (2011-10-01).",
-      "doi": "",
+      "doi": "10.1021/nn202757r",
       "url": "https://pubmed.ncbi.nlm.nih.gov/21962127/"
     },
     {
@@ -872,7 +900,7 @@
       "year": "Before",
       "index": "20",
       "reference": "S. H. Lee, S. S. Han, J. K. Kang, J. H. Ryu, and H. M. Lee*, “Phase Stability of Pt Nanoclusters and the Effect of a (0001) Graphite Surface through Molecular Dynamics Simulation”, Surface Science, 602 (2008) 1433-1439. (2008-04-01).",
-      "doi": "",
+      "doi": "10.1016/j.susc.2008.02.004",
       "url": "https://www.researchgate.net/publication/252539965_Phase_stability_of_Pt_nanoclusters_and_the_effect_of_a_0_0_0_1_graphite_surface_through_molecular_dynamics_simulation"
     },
     {
@@ -886,21 +914,21 @@
       "year": "Before",
       "index": "22",
       "reference": "S. S. Han and W. A. Goddard III*, “Li-Doped Metal-Organic Frameworks for High Hydrogen Storage at Ambient Temperature”, Journal of the American Chemical Society, 129 (2007) 8422-8423.",
-      "doi": "",
-      "url": ""
+      "doi": "10.1021/ja072599+",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17569539/"
     },
     {
       "year": "Before",
       "index": "23",
       "reference": "S. S. Han, W.-Q. Deng, and W. A. Goddard III*, “Improved Designs of Metal Organic Frameworks for Hydrogen Storage”, Angewandte Chemie International Edition, 46 (2007) 6289-6292. (Chosen as a “Hot Paper”).",
-      "doi": "",
+      "doi": "10.1002/anie.200700303",
       "url": "https://pubmed.ncbi.nlm.nih.gov/17639517/"
     },
     {
       "year": "Before",
       "index": "24",
       "reference": "S. S. Han, H. S. Kim, K. S. Han, J. Y. Lee, H. M. Lee, J. K. Kang*, S. I. Woo, A. C. T. van Duin, and W. A. Goddard III, “Nanopores of Carbon Nanotubes as Practical Hydrogen Storage Media”, Applied Physics Letters, 87 (2005) 213113. [selected for the November 28, 2005 issue of Virtual Journal of Nanoscale Science & Technology and introduced in R&D FOCUS, THE FUEL CELL REVIEW, volume 2, Issue 6, Dec/Jan 2006].",
-      "doi": "",
+      "doi": "10.1063/1.2133928",
       "url": "https://pubs.aip.org/aip/apl/article/87/21/213113/328138/Nanopores-of-carbon-nanotubes-as-practical"
     },
     {
@@ -921,7 +949,7 @@
       "year": "Before",
       "index": "27",
       "reference": "K. S. Han, H. S. Kim, M. S. Song, M. S. Park, S. S. Han, J. Y. Lee, J. K. Kang*, and Y. K. Kim, “Atmospheric-Pressure Plasma Treatment to Modify Hydrogen Storage Properties of Multi-Walled Carbon Nanotubes”, Applied Physics Letters, 86 (2005) 263105.",
-      "doi": "",
+      "doi": "10.1063/1.1957119",
       "url": "https://koasas.kaist.ac.kr/bitstream/10203/92731/1/000230090000054.pdf"
     },
     {
@@ -935,42 +963,42 @@
       "year": "Before",
       "index": "29",
       "reference": "S. S. Han, J. K. Kang, A. C. T. van Duin, W. A. Goddard III, and H. M. Lee*, “Liquefaction of H2 Molecules upon Exterior Surfaces of Carbon Nanotube Bundles”, Applied Physics Letters, 86 (2005) 203108.",
-      "doi": "",
+      "doi": "10.1063/1.1929084",
       "url": "https://pubs.aip.org/aip/apl/article/86/20/203108/329787/Liquefaction-of-H2-molecules-upon-exterior"
     },
     {
       "year": "Before",
       "index": "30",
       "reference": "S. S. Han and H. M. Lee*, “Adsorption Properties of Hydrogen on the (10,0) Single-Walled Carbon Nanotube through Density Functional Theory”, Carbon, 42 (2004) 2169-2177.",
-      "doi": "",
+      "doi": "10.1016/j.carbon.2004.04.025",
       "url": "https://www.sciencedirect.com/science/article/pii/S0008622304002842"
     },
     {
       "year": "Before",
       "index": "31",
       "reference": "T. Y. Kim, S. S. Han, and H. M. Lee*, “Nanomechanical Behavior of β-SiC Nanowire in Tension: Molecular Dynamics Simulations”, Materials Transactions, JIM, 45 (2004) 1442-1449.",
-      "doi": "",
+      "doi": "10.2320/matertrans.45.1442",
       "url": "https://www.jstage.jst.go.jp/article/matertrans/45/5/45_5_1442/_pdf"
     },
     {
       "year": "Before",
       "index": "32",
       "reference": "S. S. Han and H. M. Lee*, “Study on Cap Closure Mechanism of Single-Walled Carbon Nanotubes by Molecular Dynamics”, Materials Transactions, JIM, 45 (2004) 1437-1441.",
-      "doi": "",
+      "doi": "10.2320/matertrans.45.1437",
       "url": "https://www.jstage.jst.go.jp/article/matertrans/45/5/45_5_1437/_article"
     },
     {
       "year": "Before",
       "index": "33",
       "reference": "S. S. Han, K. S. Lee, and H. M. Lee*, “Nucleation Mechanism of Carbon Nanotubes”, Chemical Physics Letters, 383 (2004) 321-325.",
-      "doi": "",
+      "doi": "10.1016/j.cplett.2003.11.033",
       "url": "https://www.sciencedirect.com/science/article/pii/S0009261403020049"
     },
     {
       "year": "Before",
       "index": "34",
       "reference": "S. S. Han*, N. H. Goo, and K. S. Lee, “Effects of Sintering on Composite Metal Hydride Alloy of Mg2Ni and TiNi Synthesized by Mechanical Alloying”, J. Alloys and Compounds, 360 (2003) 243-249.",
-      "doi": "",
+      "doi": "10.1016/S0925-8388(03)00360-8",
       "url": "https://www.sciencedirect.com/science/article/pii/S0925838803003608"
     },
     {
@@ -991,14 +1019,14 @@
       "year": "Before",
       "index": "37",
       "reference": "S. S. Han*, H. Y. Lee, N. H. Goo, W. T. Jeong, and K. S. Lee, “Improvement of Electrode Performances of Mg2Ni by Mechanical Alloying”, J. Alloys and Compounds, 330-332 (2002) 841-845.",
-      "doi": "",
+      "doi": "10.1016/S0925-8388(01)01654-1",
       "url": "https://www.sciencedirect.com/science/article/pii/S0925838801016541"
     },
     {
       "year": "Before",
       "index": "38",
       "reference": "S. S. Han*, N. H. Goo, W. T. Jeong, and K. S. Lee, “Synthesis of Composite Metal Hydride Alloy of A2B and AB Types by Mechanical Alloying”, J. Power Sources, 92 (2001) 157-162.",
-      "doi": "",
+      "doi": "10.1016/S0378-7753(00)00516-4",
       "url": "https://www.sciencedirect.com/science/article/pii/S0378775300005164"
     }
   ]

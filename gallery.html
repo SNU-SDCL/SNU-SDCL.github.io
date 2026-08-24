@@ -88,22 +88,8 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="gallery gallery--empty">
-      <!-- 실제 사진이 생기면 아래 플레이스홀더를 <div class="gitem"> 항목으로 교체하세요.
-           data-title / data-date / data-cap 은 클릭했을 때 뜨는 큰 화면에 쓰입니다. -->
+    <div class="gallery gallery--empty" id="gallery-list">
       <div class="gitem gitem--placeholder" data-rv aria-label="Gallery item placeholder">
-        <div class="gitem__media gitem__media--placeholder"><span>Photo</span></div>
-        <span class="gitem__date">Date</span>
-        <h3 class="gitem__title">Gallery title</h3>
-        <p class="gitem__cap">A short caption will appear here.</p>
-      </div>
-      <div class="gitem gitem--placeholder" data-rv="90" aria-label="Gallery item placeholder">
-        <div class="gitem__media gitem__media--placeholder"><span>Photo</span></div>
-        <span class="gitem__date">Date</span>
-        <h3 class="gitem__title">Gallery title</h3>
-        <p class="gitem__cap">A short caption will appear here.</p>
-      </div>
-      <div class="gitem gitem--placeholder" data-rv="180" aria-label="Gallery item placeholder">
         <div class="gitem__media gitem__media--placeholder"><span>Photo</span></div>
         <span class="gitem__date">Date</span>
         <h3 class="gitem__title">Gallery title</h3>
@@ -115,17 +101,23 @@
 
 </main>
 
-<!-- 사진 크게 보기 -->
 <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
   <button class="lightbox__close" aria-label="Close">CLOSE ✕</button>
   <div class="lightbox__box">
-    <div class="lightbox__frame"></div>
+    <div class="lightbox__frame">
+      <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous photo">←</button>
+      <div class="lightbox__image" data-lb-image></div>
+      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next photo">→</button>
+    </div>
     <div class="lightbox__meta">
       <div>
         <h4 data-lb-title></h4>
         <p data-lb-cap></p>
       </div>
-      <p data-lb-date style="font-family:var(--mono);font-size:12px;color:rgba(255,255,255,.5)"></p>
+      <div class="lightbox__status">
+        <p data-lb-date></p>
+        <p data-lb-counter></p>
+      </div>
     </div>
   </div>
 </div>
@@ -163,5 +155,7 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script src="assets/gallery-data.js"></script>
+<script src="assets/gallery.js"></script>
 </body>
 </html>

@@ -47,7 +47,7 @@
       .replace(/[\s.]+$/, '');
     var submittedParts = citation.match(/^(Submitted)(?:[,.]\s*)?(.*)$/i);
     var citationParts = citation.match(
-      /^(.*?)(?:,\s*|\s+)(?=(?:(?:\d+(?:\s*[-–]\s*\d+)*)\s*\(\d{4}\)|\(\d{4}\)(?=\s+\d)|Accepted\b))(.*)$/i
+      /^(.*?)(?:,\s*|\s+)(?=(?:(?:\d+(?:\s*[-–]\s*\d+)*)\s*\(\d{4}\)|\(\d{4}\)(?=\s*:?\s*e?\d)|Accepted\b))(.*)$/i
     );
     var journal = submittedParts ? submittedParts[1] : (citationParts ? citationParts[1].trim() : citation);
     var details = submittedParts ? submittedParts[2].trim() : (citationParts ? citationParts[2].trim() : '');

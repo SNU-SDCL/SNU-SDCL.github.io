@@ -45,11 +45,11 @@
     <div class="research-detail__hero">
       <div data-rv>
         <span class="topic__no">RESEARCH TOPIC 01</span>
-        <h2 class="research-detail__title">A Chemical Laboratory That Can <em>Learn as It Works</em></h2>
+        <h2 class="research-detail__title">A Laboratory Where Robots Experiment and Learn</h2>
         <p class="research-detail__lead">
-          We integrate robotic synthesis, automated characterization and AI-guided experiment planning
-          into a traceable closed loop. Each result updates the model, helping the platform choose
-          experiments that are both informative and relevant to the scientific objective.
+          Robotic systems perform synthesis and characterization, while AI analyzes the results and selects the next experiment.
+           By repeating this closed-loop process, the laboratory can autonomously explore experimental conditions and move toward
+            desired research objectives.
         </p>
         <div class="keywords">
           <span>Automation</span><span>Robotics</span><span>Orchestration System</span><span>AI</span>
@@ -59,21 +59,30 @@
         aria-label="Abstract visualization of a self-driving laboratory"></div>
     </div>
 
+    <div class="research-detail__reel" data-rv>
+      <div class="research-detail__video-status" data-video-status role="status">Loading video…</div>
+      <video class="research-detail__reel-video"
+        data-research-video
+        src="video/self_driving_laboratory.mp4"
+        width="1280" height="720"
+        autoplay muted loop playsinline controls preload="auto"
+        aria-label="Self-driving laboratory in operation">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
     <div class="research-detail__grid">
       <article data-rv>
-        <h2>Reliable Automation</h2>
-        <p>Modular hardware and software coordinate synthesis, sampling and measurement while
-          preserving experimental context and reproducibility.</p>
+        <h2>Automation Experimental Execution</h2>
+        <p>Robotic platforms carry out synthesis, handling and characterization with consistent control over each experimental step.</p>
       </article>
       <article data-rv="80">
-        <h2>Adaptive Decisions</h2>
-        <p>Bayesian optimization and active-learning strategies balance exploration with
-          performance to select high-value experiments.</p>
+        <h2>Intelligent Experiment Planning</h2>
+        <p>AI learns from experimental outcomes and determines which conditions should be explored next to accelerate discovery.</p>
       </article>
       <article data-rv="160">
-        <h2>Learning from Every Outcome</h2>
-        <p>Successful, unsuccessful and uncertain results are captured in a common data structure
-          and returned to the model for continual refinement.</p>
+        <h2>Connected Laboratory Operations</h2>
+        <p>The orchestration system coordinates robots, instruments and data flows, linking individual tasks into a continuous experimental workflow.</p>
       </article>
     </div>
   </div>
@@ -95,5 +104,26 @@
 
 <script src="assets/research-shell.js"></script>
 <script src="assets/main.js"></script>
+<script>
+(function () {
+  var video = document.querySelector('[data-research-video]');
+  var status = document.querySelector('[data-video-status]');
+  if (!video || !status) return;
+
+  function showVideo() {
+    status.hidden = true;
+    video.classList.add('is-ready');
+    video.play().catch(function () {});
+  }
+
+  video.addEventListener('loadeddata', showVideo, { once: true });
+  video.addEventListener('error', function () {
+    status.textContent = 'Video could not be loaded. Please check that the MP4 file was uploaded.';
+    status.classList.add('is-error');
+  });
+
+  if (video.readyState >= 2) showVideo();
+}());
+</script>
 </body>
 </html>

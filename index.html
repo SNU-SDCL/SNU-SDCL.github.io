@@ -160,8 +160,13 @@
     <div data-rv>
       <span class="eyebrow">Introduction</span>
       <p class="intro__lead" style="margin-top:22px;max-width:60ch">From Chemical Insight to Intelligent Discovery</p>
-      <p class="lede" style="margin-top:26px;max-width:90ch">Our lab studies materials and chemical systems using autonomous experimentation and molecular simulation. We develop self-driving laboratory systems that combine robotics, automation, and AI to support materials synthesis, catalyst development, and chemical discovery. In parallel, we use molecular simulation to understand the structure, dynamics, thermodynamics, and reaction mechanisms of chemical and materials systems.</p>
-      <p class="lede" style="margin-top:18px;max-width:90ch">Our goal is to advance both experimental and computational approaches for more efficient and predictive materials research. By combining expertise in automation, artificial intelligence, and molecular modeling, we aim to develop new methodologies for understanding, designing, and discovering high-performance materials.</p>
+      <p class="lede" style="margin-top:26px;max-width:90ch">Our lab aims to accelerate discovery in chemistry and materials science
+         by integrating AI, automation, and molecular simulation. A central focus is the development of self-driving laboratories
+          that autonomously design, perform, and analyze experiments to efficiently explore complex chemical and materials spaces.
+           In parallel, we develop AI methods that connect experimental observations with theoretical predictions, helping to close
+            the longstanding gap between computational models and real-world laboratory systems. By combining data-driven learning,
+             chemistry/physics-based modeling, and autonomous experimentation in a closed-loop framework, our research seeks to establish
+              a new paradigm for AI-native scientific discovery and enable faster, more reliable development of advanced materials and chemical technologies.</p>
       <a class="tlink" href="about.html" style="margin-top:30px">Contact us <span class="arw">→</span></a>
     </div>
   </div>
@@ -258,9 +263,9 @@
       </div>
       <a class="tlink" href="news.html">All news <span class="arw">→</span></a>
     </div>
-    <div class="news news--empty">
-      <!-- 실제 뉴스가 생기면 아래 플레이스홀더를 <a class="news__row"> 항목으로 교체하세요. -->
+    <div class="news news--empty" id="news-list" data-news-limit="4">
       <div class="news__row news__row--placeholder" data-rv aria-label="News item placeholder">
+        <span class="news__thumb" aria-hidden="true"></span>
         <span class="news__date">Date</span>
         <span>
           <span class="news__title">News title</span>
@@ -374,5 +379,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script src="assets/news.js"></script>
 </body>
 </html>
