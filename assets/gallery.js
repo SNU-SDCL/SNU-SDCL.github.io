@@ -15,6 +15,53 @@
   var counterBox = lightbox && lightbox.querySelector('[data-lb-counter]');
   var previousButton = lightbox && lightbox.querySelector('.lightbox__nav--prev');
   var nextButton = lightbox && lightbox.querySelector('.lightbox__nav--next');
+  var heicWorker = null;
+  var heicTimeout = null;
+
+  function stopHeic() {
+    if (heicWorker) heicWorker.terminate();
+    heicWorker = null;
+    clearTimeout(heicTimeout);
+  }
+
+  function unavailable(url) {
+    imageBox.innerHTML = '<div class="lightbox__unavailable"><p>This photo could not be previewed.</p>' +
+      '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">Open original photo</a></div>';
+  }
+
+  function showHeic(url, label) {
+    imageBox.innerHTML = '<div class="lightbox__unavailable" role="status">Loading photo…</div>';
+    var worker;
+    function failed() {
+      if (heicWorker !== worker) return;
+      stopHeic();
+      unavailable(url);
+    }
+    try {
+      worker = new Worker('assets/heic-worker.js?v=20261105-1');
+      heicWorker = worker;
+      worker.onmessage = function (event) {
+        if (heicWorker !== worker) return;
+        if (event.data.error) return failed();
+        try {
+          var canvas = document.createElement('canvas');
+          canvas.width = event.data.width;
+          canvas.height = event.data.height;
+          canvas.setAttribute('role', 'img');
+          canvas.setAttribute('aria-label', label);
+          canvas.getContext('2d').putImageData(new ImageData(event.data.pixels, canvas.width, canvas.height), 0, 0);
+          imageBox.replaceChildren(canvas);
+          stopHeic();
+        } catch (error) { failed(); }
+      };
+      worker.onerror = failed;
+      heicTimeout = setTimeout(failed, 30000);
+      worker.postMessage({ url: new URL(url, document.baseURI).href });
+    } catch (error) {
+      stopHeic();
+      unavailable(url);
+    }
+  }
 
   function escapeHtml(value) {
     return String(value == null ? '' : value)
@@ -59,11 +106,23 @@
   }
 
   function showImage() {
+    stopHeic();
     var event = events[eventIndex];
     var parts = titleParts(event.title);
     var count = event.images.length;
-    imageBox.innerHTML = '<img src="' + imageUrl(event.images[imageIndex]) + '" alt="' +
-      escapeHtml(parts.title + ' photo ' + (imageIndex + 1)) + '">';
+    var url = imageUrl(event.images[imageIndex]);
+    var label = parts.title + ' photo ' + (imageIndex + 1);
+    if (/\.(heic|heif)$/i.test(event.images[imageIndex])) {
+      showHeic(url, label);
+    } else {
+      var img = document.createElement('img');
+      img.alt = label;
+      img.onerror = function () {
+        if (img.parentNode === imageBox) unavailable(url);
+      };
+      imageBox.replaceChildren(img);
+      img.src = url;
+    }
     titleBox.textContent = parts.title;
     captionBox.textContent = count + (count === 1 ? ' photo' : ' photos');
     dateBox.textContent = parts.date;
@@ -87,6 +146,9 @@
   }
 
   if (lightbox) {
+    lightbox.addEventListener('click', function (event) {
+      if (event.target === lightbox || event.target.closest('.lightbox__close')) stopHeic();
+    });
     container.addEventListener('click', function (event) {
       var cardElement = event.target.closest('[data-gallery-index]');
       if (cardElement) openEvent(Number(cardElement.dataset.galleryIndex));
@@ -100,6 +162,7 @@
       move(1);
     });
     document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') stopHeic();
       if (!lightbox.classList.contains('is-open')) return;
       if (event.key === 'ArrowLeft') move(-1);
       if (event.key === 'ArrowRight') move(1);

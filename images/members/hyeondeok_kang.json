@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Hyeondeok Kang",
+      "current_location": "Seoul National University",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Seoul National University",
+          "major": "Chemistry",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "phd": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        }
+      },
+      "email": "khdchlrh@snu.ac.kr",
+      "research_area": "Self-Driving Lab"
+    }
+  ]
+}

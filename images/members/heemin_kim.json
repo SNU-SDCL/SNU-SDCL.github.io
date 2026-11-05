@@ -1,0 +1,27 @@
+{
+  "members": [
+    {
+      "name": "Heemin Kim",
+      "current_location": "Seoul National University",
+      "academic_status_and_major": {
+        "bachelor": {
+          "school": "Seoul Women's University",
+          "major": "Chemistry",
+          "supervisor": ""
+        },
+        "master": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        },
+        "phd": {
+          "school": "",
+          "major": "",
+          "supervisor": ""
+        }
+      },
+      "email": "hmkim308@snu.ac.kr",
+      "research_area": "Self-Driving Lab"
+    }
+  ]
+}
