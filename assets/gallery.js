@@ -84,7 +84,7 @@
   }
 
   function imageUrl(path) {
-    return 'images/gallery/' + path.split('/').map(encodeURIComponent).join('/');
+    return 'images/gallery/' + path.normalize('NFC').split('/').map(encodeURIComponent).join('/');
   }
 
   function card(event, index) {
