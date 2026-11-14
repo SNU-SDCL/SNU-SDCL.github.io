@@ -2,7 +2,7 @@
 
 서울대학교 화학부 자율실험실(self-driving lab) 홈페이지입니다.
 빌드 도구 없이 HTML/CSS/JS 파일만으로 동작합니다. 전체 기능을 확인하려면 간단한 로컬 서버나 GitHub Pages를 사용하세요.
-Publication 페이지는 브라우저 보안 정책상 `publications.json`을 불러오기 위해 서버 환경이 필요합니다.
+Publication, News, Gallery 페이지는 브라우저 보안 정책상 JSON 데이터를 불러오기 위해 서버 환경이 필요합니다.
 
 ```bash
 python3 -m http.server 8000
@@ -69,8 +69,11 @@ HTML 안에 **★** 표시가 붙은 주석 근처의 글자만 바꾸면 됩니
   Publication 페이지의 목록, 연도 필터, 검색 대상과 논문 수가 자동으로 갱신됩니다.
 - 뉴스 → `news.html` 의 `<a class="news__row">` 블록을 복사 (최신순으로 위에).
 - 구성원 → `members.html` 의 `<div class="person">` 블록을 복사.
-- 사진 → `gallery.html` 의 `<div class="gitem">` 블록을 복사.
-  `data-title` / `data-date` / `data-cap` 이 크게 보기 화면에 표시됩니다.
+- 갤러리 → `gallery.json`의 `events` 배열을 수정합니다. 최신 항목을 맨 위에 추가하세요.
+  각 항목의 `images`에는 `images/gallery/` 기준의 파일 경로를 적습니다.
+  사진이나 동영상을 목록에서 빼려면 해당 경로를 삭제하면 됩니다.
+  메인 화면과 갤러리는 이 파일을 직접 읽으므로 별도 JavaScript 데이터 파일을 수정할 필요가 없습니다.
+  갤러리는 페이지당 9개 주제를 표시합니다. 로컬 확인은 위의 HTTP 서버로 실행하세요.
 
 ### 5. 메뉴·푸터 수정
 메뉴와 푸터는 7개 HTML 파일에 각각 들어 있습니다.

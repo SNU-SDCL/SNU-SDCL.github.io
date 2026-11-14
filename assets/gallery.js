@@ -6,6 +6,9 @@
   if (!container) return;
 
   var events = [];
+  var pagination = document.getElementById('gallery-pagination');
+  var pageSize = 9;
+  var currentPage = 1;
   var eventIndex = 0;
   var imageIndex = 0;
   var imageBox = lightbox && lightbox.querySelector('[data-lb-image]');
@@ -24,9 +27,28 @@
     clearTimeout(heicTimeout);
   }
 
+  function stopMedia() {
+    stopHeic();
+    var video = imageBox && imageBox.querySelector('video');
+    if (video) video.pause();
+  }
+
+  function isVideo(path) {
+    return /\.mp4$/i.test(path);
+  }
+
+  function mediaCount(event) {
+    var videos = event.images.filter(isVideo).length;
+    var photos = event.images.length - videos;
+    var counts = [];
+    if (photos) counts.push(photos + (photos === 1 ? ' photo' : ' photos'));
+    if (videos) counts.push(videos + (videos === 1 ? ' video' : ' videos'));
+    return counts.join(' · ');
+  }
+
   function unavailable(url) {
-    imageBox.innerHTML = '<div class="lightbox__unavailable"><p>This photo could not be previewed.</p>' +
-      '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">Open original photo</a></div>';
+    imageBox.innerHTML = '<div class="lightbox__unavailable"><p>This media could not be previewed.</p>' +
+      '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">Open original file</a></div>';
   }
 
   function showHeic(url, label) {
@@ -89,7 +111,6 @@
 
   function card(event, index) {
     var parts = titleParts(event.title);
-    var count = event.images.length;
     var opening = lightbox
       ? '<button class="gitem" type="button" data-gallery-index="' + index + '"'
       : '<a class="gitem" href="gallery.html"';
@@ -97,22 +118,33 @@
     return opening + ' aria-label="Open gallery: ' + escapeHtml(parts.title) + '">' +
       '<span class="gitem__media">' +
         '<img src="' + imageUrl(event.images[0]) + '" alt="' + escapeHtml(parts.title) + '" loading="lazy">' +
-        '<span class="gitem__count">' + count + (count === 1 ? ' photo' : ' photos') + '</span>' +
+        '<span class="gitem__count">' + mediaCount(event) + '</span>' +
       '</span>' +
       '<span class="gitem__date">' + escapeHtml(parts.date) + '</span>' +
       '<span class="gitem__title">' + escapeHtml(parts.title) + '</span>' +
-      '<span class="gitem__cap">View event photos</span>' +
+      '<span class="gitem__cap">View event photos' + (event.images.some(isVideo) ? ' and videos' : '') + '</span>' +
     closing;
   }
 
   function showImage() {
-    stopHeic();
+    stopMedia();
     var event = events[eventIndex];
     var parts = titleParts(event.title);
     var count = event.images.length;
     var url = imageUrl(event.images[imageIndex]);
-    var label = parts.title + ' photo ' + (imageIndex + 1);
-    if (/\.(heic|heif)$/i.test(event.images[imageIndex])) {
+    var label = parts.title + (isVideo(event.images[imageIndex]) ? ' video ' : ' photo ') + (imageIndex + 1);
+    if (isVideo(event.images[imageIndex])) {
+      var video = document.createElement('video');
+      video.controls = true;
+      video.playsInline = true;
+      video.preload = 'metadata';
+      video.setAttribute('aria-label', label);
+      video.onerror = function () {
+        if (video.parentNode === imageBox) unavailable(url);
+      };
+      imageBox.replaceChildren(video);
+      video.src = url;
+    } else if (/\.(heic|heif)$/i.test(event.images[imageIndex])) {
       showHeic(url, label);
     } else {
       var img = document.createElement('img');
@@ -124,7 +156,7 @@
       img.src = url;
     }
     titleBox.textContent = parts.title;
-    captionBox.textContent = count + (count === 1 ? ' photo' : ' photos');
+    captionBox.textContent = mediaCount(event);
     dateBox.textContent = parts.date;
     counterBox.textContent = (imageIndex + 1) + ' / ' + count;
     previousButton.hidden = count < 2;
@@ -147,7 +179,7 @@
 
   if (lightbox) {
     lightbox.addEventListener('click', function (event) {
-      if (event.target === lightbox || event.target.closest('.lightbox__close')) stopHeic();
+      if (event.target === lightbox || event.target.closest('.lightbox__close')) stopMedia();
     });
     container.addEventListener('click', function (event) {
       var cardElement = event.target.closest('[data-gallery-index]');
@@ -162,33 +194,64 @@
       move(1);
     });
     document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape') stopHeic();
+      if (event.key === 'Escape') stopMedia();
       if (!lightbox.classList.contains('is-open')) return;
       if (event.key === 'ArrowLeft') move(-1);
       if (event.key === 'ArrowRight') move(1);
     });
   }
 
+  function renderPage() {
+    var start = pagination ? (currentPage - 1) * pageSize : 0;
+    var pageEvents = pagination ? events.slice(start, start + pageSize) : events;
+    container.innerHTML = pageEvents.map(function (event, index) {
+      return card(event, start + index);
+    }).join('');
+    if (!pagination) return;
+    var totalPages = Math.ceil(events.length / pageSize);
+    pagination.hidden = totalPages <= 1;
+    var buttons = '<button type="button" data-page="' + (currentPage - 1) + '"' +
+      (currentPage === 1 ? ' disabled' : '') + ' aria-label="Previous page">←</button>';
+    for (var page = 1; page <= totalPages; page++) {
+      buttons += '<button type="button" data-page="' + page + '" aria-label="Page ' + page + '"' +
+        (page === currentPage ? ' class="is-active" aria-current="page"' : '') + '>' + page + '</button>';
+    }
+    buttons += '<button type="button" data-page="' + (currentPage + 1) + '"' +
+      (currentPage === totalPages ? ' disabled' : '') + ' aria-label="Next page">→</button>';
+    pagination.innerHTML = buttons;
+  }
+
+  if (pagination) {
+    pagination.addEventListener('click', function (event) {
+      var button = event.target.closest('button[data-page]');
+      if (!button || button.disabled) return;
+      var page = Number(button.dataset.page);
+      if (page === currentPage || page < 1 || page > Math.ceil(events.length / pageSize)) return;
+      currentPage = page;
+      renderPage();
+      container.focus({ preventScroll: true });
+      container.scrollIntoView({ block: 'start' });
+    });
+  }
+
   function render(data) {
-    events = (data.events || []).slice().reverse();
+    events = (data.events || []).slice();
     var limit = parseInt(container.getAttribute('data-gallery-limit'), 10);
     if (limit > 0) events = events.slice(0, limit);
     if (!events.length) return;
     container.classList.remove('gallery--empty');
-    container.innerHTML = events.map(card).join('');
+    currentPage = 1;
+    renderPage();
   }
 
-  if (window.GALLERY_EVENTS) {
-    render(window.GALLERY_EVENTS);
-  } else {
-    fetch('gallery.json')
-      .then(function (response) {
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        return response.json();
-      })
-      .then(render)
-      .catch(function () {
-        container.innerHTML = '<p class="gallery__error">Gallery could not be loaded.</p>';
-      });
-  }
+  fetch('gallery.json', { cache: 'no-store' })
+    .then(function (response) {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.json();
+    })
+    .then(render)
+    .catch(function () {
+      container.innerHTML = '<p class="gallery__error">Gallery could not be loaded.' +
+        (window.location.protocol === 'file:' ? ' Please open this website through a local or web server so gallery.json can be loaded.' : '') + '</p>';
+    });
 })();

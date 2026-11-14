@@ -3,6 +3,10 @@
 
   var container = document.getElementById('news-list');
   if (!container) return;
+  var pagination = document.getElementById('news-pagination');
+  var news = [];
+  var pageSize = 15;
+  var currentPage = 1;
 
   function escapeHtml(value) {
     return String(value == null ? '' : value)
@@ -98,7 +102,7 @@
     return '<a class="news__row" href="' + escapeHtml(href) + '"' + linkAttributes +
       ' aria-label="' + ariaLabel + escapeHtml(parts.text) + '">' +
       '<span class="news__thumb' + (image ? '' : ' news__thumb--empty') + (videoId ? ' news__thumb--video' : '') + '" aria-hidden="true">' +
-        (image ? '<img src="' + escapeHtml(image) + '" alt="">' : '') +
+        (image ? '<img src="' + escapeHtml(image) + '" alt="" loading="lazy">' : '') +
       '</span>' +
       '<span class="news__date">' + escapeHtml(parts.date) + '</span>' +
       '<span>' +
@@ -109,20 +113,51 @@
     '</a>';
   }
 
+  function renderPage() {
+    var start = pagination ? (currentPage - 1) * pageSize : 0;
+    var pageNews = pagination ? news.slice(start, start + pageSize) : news;
+    container.innerHTML = pageNews.map(newsRow).join('');
+    fitNewsTitles();
+    if (!pagination) return;
+    var totalPages = Math.ceil(news.length / pageSize);
+    pagination.hidden = totalPages <= 1;
+    var buttons = '<button type="button" data-page="' + (currentPage - 1) + '"' +
+      (currentPage === 1 ? ' disabled' : '') + ' aria-label="Previous page">←</button>';
+    for (var page = 1; page <= totalPages; page++) {
+      buttons += '<button type="button" data-page="' + page + '" aria-label="Page ' + page + '"' +
+        (page === currentPage ? ' class="is-active" aria-current="page"' : '') + '>' + page + '</button>';
+    }
+    buttons += '<button type="button" data-page="' + (currentPage + 1) + '"' +
+      (currentPage === totalPages ? ' disabled' : '') + ' aria-label="Next page">→</button>';
+    pagination.innerHTML = buttons;
+  }
+
+  if (pagination) {
+    pagination.addEventListener('click', function (event) {
+      var button = event.target.closest('button[data-page]');
+      if (!button || button.disabled) return;
+      var page = Number(button.dataset.page);
+      if (page === currentPage || page < 1 || page > Math.ceil(news.length / pageSize)) return;
+      currentPage = page;
+      renderPage();
+      container.focus({ preventScroll: true });
+      container.scrollIntoView({ block: 'start' });
+    });
+  }
+
   fetch('news.json')
     .then(function (response) {
       if (!response.ok) throw new Error('HTTP ' + response.status);
       return response.json();
     })
     .then(function (data) {
-      var news = Array.isArray(data) ? data : (data.news || []);
+      news = Array.isArray(data) ? data : (data.news || []);
       news.sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
       var limit = parseInt(container.getAttribute('data-news-limit'), 10);
       if (limit > 0) news = news.slice(0, limit);
       if (!news.length) return;
       container.classList.remove('news--empty');
-      container.innerHTML = news.map(newsRow).join('');
-      fitNewsTitles();
+      renderPage();
       window.addEventListener('resize', fitNewsTitles);
       if (document.fonts && document.fonts.ready) {
         document.fonts.ready.then(fitNewsTitles);

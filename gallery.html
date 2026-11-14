@@ -9,7 +9,7 @@
   href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230C0D0F'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%232B3FF3'/%3E%3C/svg%3E">
 <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
-<link rel="stylesheet" href="assets/style.css?v=20261105-2">
+<link rel="stylesheet" href="assets/style.css?v=20261114-2">
 </head>
 <body>
 
@@ -88,7 +88,7 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="gallery gallery--empty" id="gallery-list">
+    <div class="gallery gallery--empty" id="gallery-list" tabindex="-1" role="group" aria-label="Gallery events">
       <div class="gitem gitem--placeholder" data-rv aria-label="Gallery item placeholder">
         <div class="gitem__media gitem__media--placeholder"><span>Photo</span></div>
         <span class="gitem__date">Date</span>
@@ -96,18 +96,19 @@
         <p class="gitem__cap">A short caption will appear here.</p>
       </div>
     </div>
+    <nav class="gallery-pagination" id="gallery-pagination" aria-label="Gallery pages" hidden></nav>
   </div>
 </section>
 
 </main>
 
-<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo and video viewer">
   <button class="lightbox__close" aria-label="Close">CLOSE ✕</button>
   <div class="lightbox__box">
     <div class="lightbox__frame">
-      <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous photo">←</button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous photo or video">←</button>
       <div class="lightbox__image" data-lb-image></div>
-      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next photo">→</button>
+      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next photo or video">→</button>
     </div>
     <div class="lightbox__meta">
       <div>
@@ -155,7 +156,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
-<script src="assets/gallery-data.js?v=20261105-2"></script>
-<script src="assets/gallery.js?v=20261105-2"></script>
+<script src="assets/gallery.js?v=20261114-4"></script>
 </body>
 </html>
