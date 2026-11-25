@@ -198,6 +198,14 @@
     })
     .then(function (data) {
       publications = Array.isArray(data) ? data : (data.publications || []);
+      // Array order is newest first within each year (including Submitted).
+      // Derive indices before filtering/pagination so they stay consistent.
+      var yearCounts = Object.create(null);
+      publications.forEach(function (item) {
+        var year = String(item.year || 'Other');
+        yearCounts[year] = (yearCounts[year] || 0) + 1;
+        item.index = yearCounts[year];
+      });
       renderFilters();
       list.innerHTML = publications.map(publicationCard).join('');
       applyFilters();
